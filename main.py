@@ -26,7 +26,7 @@ def send_daily_update():
             bot.send_message(MY_USER_ID, message)
         else:
             print("Не удалось получить курс. Пробуем снова позже.")
-        time.sleep(86400)  # сейчас раз в сутки (можно поменять на 60 для теста)
+        time.sleep(60)  # сейчас раз в сутки (можно поменять на 60 для теста)
 
 if __name__ == "__main__":
     time.sleep(5)
