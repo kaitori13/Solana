@@ -2,8 +2,7 @@ import requests
 import telebot
 import time
 
-TOKEN = '8113463759:AAGDcv9ffQXXJvUjVVpDjHy88zUYZG*****'
-MY_USER_ID = 450564953
+TOKEN = '7469294817:AAH2GuElArgcAodeiLYC15ybRjw-wV0tqLA'
 
 bot = telebot.TeleBot(TOKEN)
 
